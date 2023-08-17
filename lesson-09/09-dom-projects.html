@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DOM</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <p>Youtube Subscribe Button</p>
 
-  <p>Youtube Subscribe Button</p>
-  
-  <button onclick="
+    <button
+      onclick="
     const buttonElemant = document.querySelector('js-subscribe-button');
   
     if (buttonElemant === 'Subscribe') {
@@ -18,7 +18,10 @@
       buttonElemant.innerHTML = 'Subscribe';
     }
     
-  " class="js-subscribe-button">Subscribe</button>
-
-</body>
+  "
+      class="js-subscribe-button"
+    >
+      Subscribe
+    </button>
+  </body>
 </html>
